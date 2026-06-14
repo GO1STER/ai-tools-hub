@@ -1,0 +1,168 @@
+<AffiliateDisclosure />
+
+Running a YouTube channel at scale — whether that's 2 videos a week or 10 — requires more than good content. It requires a system. The creators who grow fastest are not the ones who work hardest; they're the ones who automate the repetitive work so they can focus on the parts that actually move the needle.
+
+This guide covers the AI workflow and automation tools that experienced YouTube creators are actually using to run their channels in 2025: from auto-scheduling and repurposing, to batch thumbnail generation, to automated research pipelines.
+
+<RatingStars rating={4.3} label="Category average rating" />
+
+---
+
+## The YouTube Creator Workflow — What Can Be Automated?
+
+Before picking tools, map your workflow. Most channels have these recurring tasks:
+
+1. **Topic research** — finding what to make next
+2. **Scripting** — writing the video
+3. **Recording or generating** — production
+4. **Thumbnail creation** — design
+5. **Video editing** — cutting and polishing
+6. **Publishing** — uploading, titles, descriptions, tags
+7. **Repurposing** — turning the video into Shorts, tweets, newsletter
+
+Steps 1, 6, and 7 are the easiest to automate significantly. Steps 2 through 5 can be partially automated. The goal is not to remove yourself from the process — it's to eliminate the mechanical, low-value parts.
+
+---
+
+## Tools We Tested
+
+<ComparisonTable
+  features={["TopicResearch", "AutoPosting", "Repurposing", "Integrations", "Freeplan"]}
+  tools={[
+    { name: "Make (Integromat)", price: "From $9/mo", rating: 4.7, TopicResearch: "Via modules", AutoPosting: "Yes", Repurposing: "Via modules", Integrations: "2000+", Freeplan: "Yes" },
+    { name: "Zapier", price: "From $20/mo", rating: 4.3, TopicResearch: "Via Zaps", AutoPosting: "Yes", Repurposing: "Via Zaps", Integrations: "7000+", Freeplan: "Yes" },
+    { name: "Opus Clip", price: "From $15/mo", rating: 4.5, TopicResearch: "No", AutoPosting: "Yes", Repurposing: "Yes", Integrations: "Limited", Freeplan: "Yes" },
+    { name: "Descript", price: "From $12/mo", rating: 4.1, TopicResearch: "No", AutoPosting: "No", Repurposing: "Yes", Integrations: "Limited", Freeplan: "Yes" },
+    { name: "TubeBuddy", price: "From $4.99/mo", rating: 4.2, TopicResearch: "Yes", AutoPosting: "No", Repurposing: "No", Integrations: "YouTube only", Freeplan: "Yes" }
+  ]}
+/>
+
+---
+
+## Make (formerly Integromat)
+
+Make is the most powerful general-purpose automation tool available at a price that solo creators can afford. It uses a visual, drag-and-drop scenario builder where you connect "modules" — inputs, transforms, and outputs — to automate complex multi-step workflows.
+
+**What YouTube creators use it for:**
+
+- Auto-publish a new video → trigger a tweet thread, a LinkedIn post, and an email newsletter, all formatted differently for each platform
+- Monitor a Google Trends RSS feed → if a trending topic matches your niche keywords → create a draft in Notion with a suggested title and script outline (using a Claude or ChatGPT module)
+- When a new video hits 1,000 views → send yourself a Slack notification with the top-performing thumbnail for that video
+
+**The learning curve is real.** Make takes longer to set up than Zapier, but the free plan is significantly more generous and complex logic (filters, routers, iterators) is available at lower price tiers.
+
+<ProsCons
+  pros={[
+    "Most powerful automation logic at the lowest price point",
+    "AI modules — connect directly to OpenAI, Claude, and other LLMs",
+    "Visual builder makes complex multi-step flows manageable",
+    "Free plan includes 1,000 operations/month — enough to test seriously",
+    "2,000+ app integrations including YouTube, Notion, Airtable, Slack"
+  ]}
+  cons={[
+    "Steeper learning curve than Zapier",
+    "Error messages can be cryptic when automations fail",
+    "Interface is less polished than some competitors",
+    "Some advanced modules require understanding JSON and data structures"
+  ]}
+/>
+
+**Best for:** Creators who want maximum automation power and are willing to invest a few hours in setup.
+
+---
+
+## Opus Clip
+
+Opus Clip does one thing and does it exceptionally well: it takes your long-form YouTube video and automatically creates short-form clips for YouTube Shorts, TikTok, and Instagram Reels.
+
+You upload (or paste the URL of) a video, and Opus Clip's AI identifies the best moments, reframes them to vertical 9:16 format, adds auto-captions, and ranks the clips by predicted virality score. The process takes about 10 minutes for a 20-minute video.
+
+**The quality is genuinely impressive.** The AI finds moments that a human editor would also flag — compelling statements, surprising reveals, quotable lines. It's not perfect, but the best 2 or 3 clips it surfaces are usually worth posting.
+
+**The auto-posting feature** lets you schedule clips directly to YouTube Shorts and TikTok from within the app, which eliminates a lot of manual platform management.
+
+<ProsCons
+  pros={[
+    "Best-in-class automatic clip selection — finds genuinely compelling moments",
+    "Auto-reframe to vertical is accurate for talking-head content",
+    "Auto-captions with customisable styles included",
+    "Virality score helps prioritise which clips to post",
+    "Direct scheduling to YouTube Shorts and TikTok"
+  ]}
+  cons={[
+    "Less effective for non-talking-head content (animations, screenshares)",
+    "Virality scores are directional, not reliable predictions",
+    "Limited customisation of clip selection criteria",
+    "Higher tier required for bulk processing and auto-posting"
+  ]}
+/>
+
+**Best for:** Any creator who is not repurposing their long-form content into Shorts. This is the fastest way to start, and the ROI in additional reach is significant.
+
+---
+
+## TubeBuddy
+
+TubeBuddy is a browser extension that sits directly inside YouTube Studio and adds AI-powered research and optimisation features. It's the most accessible tool in this list — zero setup, installs in 30 seconds, and you're immediately getting data you didn't have before.
+
+**Most useful features for creators:**
+
+- **Keyword Explorer:** Shows search volume, competition score, and related keywords for any YouTube search term. More accurate for YouTube specifically than general SEO tools.
+- **A/B Thumbnail Testing:** Automatically rotates between two thumbnail versions and shows which generates a higher CTR. This single feature can improve a channel's performance significantly.
+- **Best Time to Publish:** Shows when your existing subscribers are most active.
+- **Bulk Processing:** Update descriptions, end screens, and cards across multiple videos at once — critical when updating links or sponsor calls.
+
+<ProsCons
+  pros={[
+    "Lives inside YouTube Studio — zero context switching",
+    "A/B thumbnail testing is a genuine competitive advantage",
+    "Keyword Explorer is the most YouTube-specific research tool available",
+    "Bulk editing saves hours when updating multiple videos",
+    "Starts at $4.99/month — lowest price in this comparison"
+  ]}
+  cons={[
+    "Browser extension only — no mobile or API access",
+    "Some features require higher plans to be useful",
+    "AI features are less capable than standalone LLM tools",
+    "Data can lag behind real-time YouTube algorithm changes"
+  ]}
+/>
+
+**Best for:** Every YouTube creator. The A/B thumbnail testing alone justifies the price.
+
+---
+
+## A Simple Automation Stack for a Faceless Channel
+
+Here's what a solo creator running a faceless YouTube channel realistically needs:
+
+**Research:** TubeBuddy Keyword Explorer + Google Trends (free)
+
+**Scripting:** Claude or ChatGPT with a saved system prompt
+
+**Production:** ElevenLabs (voice) + Kling or Pika (visuals) or a stock footage subscription
+
+**Thumbnail:** Midjourney → Canva
+
+**Repurposing:** Opus Clip for Shorts
+
+**Distribution automation:** Make scenario — new YouTube video published → auto-post to Twitter/X, LinkedIn, Telegram channel
+
+**Analytics:** TubeBuddy inside YouTube Studio
+
+Total monthly cost for this stack: approximately $60 to $90. A single monetised video that performs well pays for several months.
+
+---
+
+## The One Automation Most Creators Skip
+
+The highest-leverage automation that almost no one sets up: **auto-repurposing of your video description into a newsletter**.
+
+Set up a Make scenario:
+1. Trigger: New video published on YouTube
+2. Action: Send the video title + description to ChatGPT with a prompt: "Rewrite this as a 200-word email newsletter section introducing this YouTube video, in a casual, direct tone"
+3. Action: Add the output as a draft in your email platform (ConvertKit, Beehiiv, etc.)
+
+You review and send in 5 minutes. The alternative is either not emailing your list at all, or spending 30 minutes writing a separate newsletter entry. Over a year of weekly uploads, this saves over 25 hours.
+
+*Pricing as of June 2025.*

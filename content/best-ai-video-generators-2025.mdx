@@ -1,0 +1,151 @@
+<AffiliateDisclosure />
+
+If you run a faceless YouTube channel or produce video content at scale, you have probably noticed that AI video generation has become genuinely usable in the past year. Not perfect — but usable. After testing four of the leading tools across real production workflows for six weeks, here is what we found.
+
+<RatingStars rating={4.2} label="Average category rating" />
+
+## Why AI Video Generation Matters for Creators
+
+The bottleneck for most solo creators is not ideas or scripts — it is production time. A single 10-minute video can take 8–20 hours to produce traditionally. AI video generators won't replace everything yet, but they can cover b-roll, abstract visuals, stock-style footage, and short-form social clips far faster and cheaper than licensing from stock libraries or shooting yourself.
+
+The tools in this comparison are best suited for:
+
+- Faceless YouTube channels (finance, tech, motivation, education)
+- B-roll and visual support for talking-head videos
+- Short-form content for Reels, TikTok, and YouTube Shorts
+- Rapid prototyping before full production
+
+---
+
+## The Tools We Tested
+
+We evaluated **Runway Gen-3 Alpha**, **Pika 2.0**, **Kling 1.6**, and **OpenAI Sora** across the following real use cases: generating 5-second b-roll clips from text prompts, extending existing footage, and animating still images. We tested each at their mid-tier paid plan.
+
+<ComparisonTable
+  features={["TextToVideo", "ImageToVideo", "VideoExtension", "MaxClipLength", "API"]}
+  tools={[
+    { name: "Runway Gen-3 Alpha", price: "$15/mo", rating: 4.4, TextToVideo: "Yes", ImageToVideo: "Yes", VideoExtension: "Yes", MaxClipLength: "10s", API: "Yes" },
+    { name: "Pika 2.0", price: "$8/mo", rating: 4.1, TextToVideo: "Yes", ImageToVideo: "Yes", VideoExtension: "Yes", MaxClipLength: "15s", API: "No" },
+    { name: "Kling 1.6", price: "$10/mo", rating: 4.3, TextToVideo: "Yes", ImageToVideo: "Yes", VideoExtension: "Yes", MaxClipLength: "10s", API: "Yes" },
+    { name: "Sora (OpenAI)", price: "$20/mo", rating: 3.9, TextToVideo: "Yes", ImageToVideo: "No", VideoExtension: "No", MaxClipLength: "20s", API: "No" }
+  ]}
+/>
+
+---
+
+## Runway Gen-3 Alpha
+
+Runway has been in this space longer than anyone, and Gen-3 Alpha shows it. The motion quality is consistently the most cinematic of the group — objects move naturally, camera motion is controllable with text prompts ("slow dolly left"), and skin tones on people are the best in class.
+
+**What it does well:** Runway's Motion Brush feature lets you paint which parts of an image should move and which should stay static, which is incredibly useful for creating stylised b-roll from still photography. It also integrates directly with Adobe Premiere, which is a real workflow win.
+
+**Where it falls short:** The 10-second maximum per generation is limiting, and the credit system is confusing — you burn through your monthly allowance faster than you'd expect if you're generating at 4K.
+
+<ProsCons
+  pros={[
+    "Best motion quality and physics simulation in the group",
+    "Motion Brush gives precise per-region animation control",
+    "Adobe Premiere plugin — genuine workflow integration",
+    "Consistent output quality across very different prompt styles",
+    "API access for automation pipelines"
+  ]}
+  cons={[
+    "10-second clip limit per generation",
+    "Credit system is confusing — easy to overspend",
+    "Most expensive option at scale",
+    "Prompt adherence can be inconsistent for complex scenes"
+  ]}
+/>
+
+**Verdict:** The best choice if quality is your top priority and you're producing content where cinematic motion matters.
+
+---
+
+## Pika 2.0
+
+Pika's big strength is the interface — it is genuinely the easiest of the four to pick up with no AI background. The web app is clean, generation is fast (under 30 seconds usually), and the recent 2.0 update added much better scene consistency.
+
+**What surprised us:** Pika handles stylised content exceptionally well. For channels that lean into illustrated, anime, or graphic-novel aesthetics, Pika's outputs consistently beat the others.
+
+**Real limitation:** There's no API, so if you want to integrate Pika into a bulk generation workflow or automation, you're stuck clicking through the web interface. That's a dealbreaker for creators producing at volume.
+
+<ProsCons
+  pros={[
+    "Easiest interface — minimal learning curve",
+    "Fast generation times (typically under 30 seconds)",
+    "Excellent for stylised, illustrated, or animated aesthetics",
+    "15-second maximum clip length (longest in this test)",
+    "Most affordable paid tier at $8/month"
+  ]}
+  cons={[
+    "No API access — cannot automate or batch generate",
+    "Photorealistic human faces look artificial",
+    "Fewer controls for camera movement than Runway or Kling",
+    "Output inconsistency increases with complex prompts"
+  ]}
+/>
+
+**Verdict:** Great starting point for creators new to AI video, especially those with illustrated or stylised channel aesthetics.
+
+---
+
+## Kling 1.6
+
+Kling is the dark horse here. Developed by Kuaishou, it has quietly become one of the most capable text-to-video tools available, and its pricing is competitive.
+
+**What sets it apart:** Kling's handling of physics — water, fire, cloth movement, crowd scenes — is noticeably better than the alternatives at this price point. The "Professional Mode" at 1080p produces genuinely impressive results.
+
+<ProsCons
+  pros={[
+    "Best physics simulation for water, fire, and complex motion",
+    "Strong API access — good for automation workflows",
+    "Competitive pricing relative to output quality",
+    "Professional Mode produces clean 1080p output",
+    "Handles crowd and environmental scenes better than competitors"
+  ]}
+  cons={[
+    "Interface partially in Chinese — occasional UX friction",
+    "Thinner English documentation and community support",
+    "Longer average generation times (45–90 seconds)",
+    "Less useful for human-centric content"
+  ]}
+/>
+
+**Verdict:** Best value for money if your content involves environmental, scientific, or abstract visuals.
+
+---
+
+## OpenAI Sora
+
+Sora arrived with enormous hype and the underlying model quality is genuinely impressive. But the current product is limited in practical ways — no image-to-video, no video extension, no API. The 20-second maximum is a standout feature, but you spend time wrestling with content policy restrictions that block surprisingly benign creative prompts.
+
+<ProsCons
+  pros={[
+    "Best scene composition and spatial understanding",
+    "20-second clips — the longest available at this price",
+    "Strong understanding of physics and object permanence",
+    "Included with existing ChatGPT Plus subscription"
+  ]}
+  cons={[
+    "No image-to-video or video extension features",
+    "No API — zero automation capability",
+    "Aggressive content restrictions block many legitimate creative prompts",
+    "Generation is slow compared to alternatives",
+    "Weak for human faces and photorealistic portrait shots"
+  ]}
+/>
+
+**Verdict:** Worth experimenting with if you already pay for ChatGPT Plus, but not a primary production tool yet.
+
+---
+
+## Which Should You Choose?
+
+- **Best overall quality:** Runway Gen-3 Alpha
+- **Best for beginners and stylised content:** Pika 2.0
+- **Best value and automation:** Kling 1.6
+- **Best for experimentation (existing ChatGPT users):** Sora
+
+For most faceless YouTube channel creators, **Kling 1.6** offers the best balance of quality, price, and workflow flexibility. If you want the most polished cinematic output and price is less of a concern, go with **Runway**.
+
+*Prices and features are as of June 2025. Check official pricing pages before purchasing.*
