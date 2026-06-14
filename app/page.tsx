@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getAllPosts, CATEGORIES } from "@/lib/posts";
 import PostCard from "@/components/PostCard";
 import AdSlot from "@/components/AdSlot";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export const revalidate = 3600;
 
@@ -170,6 +171,11 @@ export default function HomePage() {
         )}
 
         <AdSlot slot="homepage-bottom" format="leaderboard" className="mb-14" />
+
+        {/* ── Newsletter ── */}
+        <div className="mb-14">
+          <NewsletterForm />
+        </div>
 
         {/* ── Trust section ── */}
         <section className="bg-gray-50 border border-gray-200 rounded-3xl p-8 sm:p-10 text-center">

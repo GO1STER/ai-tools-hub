@@ -1,0 +1,57 @@
+name: Auto-publish article
+
+on:
+  schedule:
+    # Every 2 days at 9:00 AM UTC (adjust as needed)
+    - cron: "0 9 */2 * *"
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/auto-article.mjs
+
+      - name: Commit and push new article
+        run: |
+          git config user.name "AICreatorEdge Bot"
+          git config user.email "bot@aicreatoredge.com"
+          git add content/ lib/posts-data.ts scripts/article-queue.json scripts/last-published.json
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "chore: auto-publish new article [skip ci]"
+          git push
+
+      - name: Notify subscribers
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SITE_URL: https://www.aicreatoredge.com
+        run: |
+          if [ -f scripts/last-published.json ]; then
+            PAYLOAD=$(cat scripts/last-published.json)
+            curl -s -X POST \
+              -H "Content-Type: application/json" \
+              -H "Authorization: Bearer $CRON_SECRET" \
+              -d "$PAYLOAD" \
+              "$SITE_URL/api/notify" || echo "Notify request failed (non-fatal)"
+          fi
