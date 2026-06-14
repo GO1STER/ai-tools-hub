@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Link href="/" className="flex items-center gap-2 font-bold text-xl text-white mb-3">
-              <span>🤖</span>
-              <span>AICreatorTools</span>
+              <span className="flex items-center justify-center w-8 h-8 bg-indigo-600 rounded-lg text-white text-sm font-black shrink-0">AI</span>
+              <span>Creator<span className="text-indigo-400">Tools</span></span>
             </Link>
             <p className="text-sm leading-relaxed">
               Honest reviews and tutorials of AI tools for YouTube creators, faceless channels, and video marketers.

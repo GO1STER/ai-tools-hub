@@ -40,11 +40,6 @@ export default function HomePage() {
     name: "AICreatorTools",
     url: SITE_URL,
     description: "Honest AI tool reviews for YouTube creators and faceless channel operators.",
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE_URL}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (

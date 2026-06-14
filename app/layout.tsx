@@ -19,6 +19,12 @@ export const metadata: Metadata = {
     "Honest reviews, comparisons, and tutorials of the best AI tools for content creators, YouTubers, and faceless video channels. Updated regularly.",
   keywords: ["AI tools for content creators", "AI video tools", "YouTube AI tools", "AI for YouTubers"],
   authors: [{ name: "AICreatorTools Editorial" }],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
