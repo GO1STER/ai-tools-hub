@@ -1,0 +1,164 @@
+<AffiliateDisclosure />
+
+Midjourney is not a thumbnail tool. It has no YouTube mode, no 16:9 export, no text overlay, and no direct integration with any design platform. And yet it consistently produces the highest-CTR thumbnails of any AI image generator we've tested.
+
+This guide teaches you the exact workflow we use to go from zero to a publish-ready thumbnail in under 20 minutes using Midjourney plus Canva — and includes the specific prompt templates that have worked across finance, tech, and education niches.
+
+<RatingStars rating={4.7} label="Workflow rating" />
+
+---
+
+## Why Midjourney Specifically?
+
+The short answer: image quality. Midjourney's v6.1 model produces images with a level of detail, lighting drama, and compositional sophistication that other generators — including Adobe Firefly, DALL-E 3, and Canva AI — do not match at equivalent prompts.
+
+For thumbnails specifically, this matters because:
+- **High contrast and saturation** are easier to achieve in Midjourney
+- **Dramatic lighting** (rim light, chiaroscuro, golden hour) is more reliable
+- **Cinematic depth of field** looks more professional than flat AI-generated images
+- **Consistent style** across multiple thumbnails is achievable via style references
+
+The trade-off: Midjourney still lives primarily in Discord (the web app is in beta), and it cannot reliably generate readable text within images. This is why you need a second tool for the text overlay step.
+
+---
+
+## The Full Workflow
+
+### Step 1 — Choose Your Thumbnail Type
+
+Before writing a prompt, decide which type of thumbnail your video calls for. The three highest-CTR types on YouTube:
+
+**Type A — Emotional face + text** (highest CTR for talking heads)
+Requires a real photo of yourself. Midjourney can generate the background, you add your cutout.
+
+**Type B — Dramatic scene + bold text** (best for faceless channels)
+No face required. The image carries the emotion — Midjourney excels here.
+
+**Type C — Before/after or comparison** (high performance for how-to content)
+Split-screen or juxtaposed images. Can be fully AI-generated.
+
+This guide focuses on Type B and Type C, which are most relevant for AI-generated content workflows.
+
+---
+
+### Step 2 — Write a Midjourney Prompt That Works
+
+The anatomy of a high-performing thumbnail prompt:
+
+```
+[main subject or scene], [lighting style], [colour palette], [camera angle], [mood/emotion], [technical style], --ar 16:9 --style raw --v 6.1
+```
+
+**Proven templates by niche:**
+
+**Finance / Money:**
+```
+golden coins exploding outward, dramatic cinematic lighting, deep black background with gold and orange tones, low angle close-up, wealth and abundance mood, photorealistic, sharp focus --ar 16:9 --style raw --v 6.1
+```
+
+**Tech / AI:**
+```
+glowing blue neural network flowing through dark space, futuristic holographic interface, deep navy and electric blue, wide angle, awe-inspiring mood, cinematic --ar 16:9 --style raw --v 6.1
+```
+
+**Motivation / Self-improvement:**
+```
+lone figure standing on mountaintop at sunrise, dramatic volumetric light rays, warm orange and deep purple sky, heroic silhouette, epic cinematic mood --ar 16:9 --style raw --v 6.1
+```
+
+**Business / Productivity:**
+```
+minimalist desk workspace with glowing laptop screen, soft focused background, clean white and warm grey tones, overhead angle, aspirational productive mood, magazine photography --ar 16:9 --style raw --v 6.1
+```
+
+---
+
+### Step 3 — Generate and Select
+
+Run your prompt in Midjourney. You'll get a 2x2 grid of four variations. Tips for selecting:
+
+- **Reject any image where the text overlay area is cluttered.** You need at least 30% of the image with low visual complexity for text to read cleanly.
+- **Check contrast at thumbnail size.** Click the image, then zoom out in Discord until it's roughly 200px wide. Can you still read the mood? If not, the lighting is too flat.
+- **Prefer images that read from left to right.** Eyes track left to right — put the drama on the left and leave space for text on the right.
+
+Use the U1, U2, U3, or U4 buttons to upscale your chosen image.
+
+---
+
+### Step 4 — Build the Text Overlay in Canva
+
+Download the upscaled image and upload it to Canva:
+
+**Canvas size:** 1280 x 720px (YouTube standard)
+
+**Text formula that works:**
+- **Primary headline:** 3 to 5 words maximum, ALL CAPS or Title Case, bold weight, 80 to 110pt
+- **Secondary text (optional):** 2 to 3 words, smaller, complementary colour
+- **Font stack that works on thumbnails:** Anton, Bebas Neue, Montserrat ExtraBold, or Impact
+
+**Colour rules:**
+- White text with black drop shadow is readable on almost any background
+- Yellow and red are the highest-contrast colours on thumbnails (there's a reason every successful faceless channel uses them)
+- Avoid thin fonts, pastel colours, or gradients on the text itself
+
+**The drop shadow trick:** In Canva, add a text shadow with 0px blur, 2 to 4px offset, black at 100% opacity. This creates a hard outline effect that's more readable at small sizes than a soft shadow.
+
+---
+
+### Step 5 — A/B Test (This Part Most Creators Skip)
+
+Upload your video to YouTube and use **TubeBuddy's A/B Test** feature to alternate between two thumbnail versions. Let each run for at least 500 impressions before calling a winner.
+
+Variables worth testing:
+- Text colour (white vs yellow)
+- Text position (left vs right vs bottom)
+- Background image variation (two different Midjourney outputs)
+- With vs without a face cutout
+
+Over time, you'll develop a clear picture of what works for your specific audience. This data is more valuable than any general advice.
+
+---
+
+## Style Consistency Across Your Channel
+
+The `--sref` (style reference) parameter in Midjourney lets you lock in a visual style across multiple thumbnails. Once you find an image you love, use its job ID or URL as the style reference:
+
+```
+[new scene description] --sref [URL of your reference image] --sw 50 --ar 16:9 --v 6.1
+```
+
+The `--sw` (style weight) parameter controls how strictly the new image matches the reference. Values between 30 and 70 give you style consistency while allowing enough variation for each thumbnail to be unique.
+
+This is how faceless channels maintain a recognisable visual brand without having a face.
+
+---
+
+## Common Mistakes
+
+**Using text inside the Midjourney prompt:** Don't. Every AI image generator produces garbled, incorrect text. Accept this limitation and do text in Canva.
+
+**Generating at wrong aspect ratio:** Always use `--ar 16:9`. Midjourney defaults to square, which then gets cropped badly for thumbnails.
+
+**Choosing the busiest image:** More detail ≠ better thumbnail. The most eye-catching thumbnails have one clear focal point.
+
+**Skipping the mobile check:** Open YouTube on your phone and check how your thumbnail looks at 4cm wide. That's the typical mobile impression size. If you can't read the text or understand the image at that size, it will underperform.
+
+---
+
+## Cost Breakdown
+
+**Midjourney Basic:** $10/month — includes 200 fast GPU hours/month. At roughly 10 seconds per generation, that's 72,000 seconds = 2,000 images. Far more than enough for thumbnails.
+
+**Canva Free or Pro:** Free tier is sufficient for thumbnail work. Pro ($15/month) is worth it if you also use Canva for other content design.
+
+**Total for this workflow: $10 to $25/month** for unlimited professional-quality thumbnail production.
+
+---
+
+## Verdict
+
+The Midjourney + Canva workflow is the most cost-effective way to produce high-CTR thumbnails at scale. It requires about 20 minutes per thumbnail when you're familiar with it, and the quality ceiling is as high as you're willing to push it.
+
+The Discord interface is genuinely a friction point — we expect the web app to become the primary interface within the next year. But the image quality advantage over every web-first alternative is large enough that the friction is worth tolerating.
+
+*Pricing as of June 2025.*
