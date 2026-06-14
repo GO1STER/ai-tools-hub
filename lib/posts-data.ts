@@ -210,6 +210,80 @@ const posts: PostMeta[] = [
     affiliateDisclosure: true,
     rating: 4.3,
   },
+  {
+    title: "HeyGen Review 2025: The Best AI Avatar Tool for YouTube Creators?",
+    description:
+      "In-depth HeyGen review after 90 days of production use — avatar realism, translation quality, credit system gotchas, and whether the $89/month Business plan is worth it for faceless YouTube channels.",
+    slug: "heygen-review",
+    category: "AI Video Tools",
+    categorySlug: "ai-video-tools",
+    date: "2025-06-13",
+    updated: "2025-06-14",
+    keywords: [
+      "HeyGen review 2025",
+      "HeyGen AI avatar",
+      "best AI avatar tool YouTube",
+      "HeyGen vs Synthesia",
+      "AI presenter video tool",
+    ],
+    affiliateDisclosure: true,
+    rating: 4.6,
+  },
+  {
+    title: "Pictory AI Review 2025: Turn Blog Posts into YouTube Videos Automatically",
+    description:
+      "Honest Pictory AI review for faceless channel creators — blog-to-video workflow, stock footage quality, voiceover options, and whether the $39/month Professional plan delivers real time savings.",
+    slug: "pictory-ai-review",
+    category: "AI Video Tools",
+    categorySlug: "ai-video-tools",
+    date: "2025-06-12",
+    updated: "2025-06-14",
+    keywords: [
+      "Pictory AI review 2025",
+      "Pictory blog to video",
+      "AI video maker for YouTube",
+      "faceless YouTube channel tools",
+      "Pictory vs InVideo",
+    ],
+    affiliateDisclosure: true,
+    rating: 4.2,
+  },
+  {
+    title: "Best Free AI Tools for YouTube Creators in 2025 (Tested Workflow)",
+    description:
+      "The complete free AI tool stack for YouTube creators — what each free tier actually includes, which tools hit their limits first, and how to build a professional faceless channel workflow at $0/month.",
+    slug: "best-free-ai-tools-youtube",
+    category: "AI Workflows & Automation",
+    categorySlug: "ai-workflows-automation",
+    date: "2025-06-11",
+    updated: "2025-06-14",
+    keywords: [
+      "best free AI tools for YouTube",
+      "free AI tools content creators",
+      "AI YouTube tools free",
+      "free faceless YouTube tools",
+      "free AI video tools 2025",
+    ],
+    affiliateDisclosure: false,
+  },
+  {
+    title: "How to Make YouTube Shorts with AI: Complete 2025 Guide",
+    description:
+      "Step-by-step guide to building a YouTube Shorts workflow with AI — from script and voiceover to captions and publishing. Covers both original AI Shorts and repurposing long-form content with Opus Clip.",
+    slug: "how-to-make-youtube-shorts-with-ai",
+    category: "AI Workflows & Automation",
+    categorySlug: "ai-workflows-automation",
+    date: "2025-06-10",
+    updated: "2025-06-14",
+    keywords: [
+      "how to make YouTube Shorts with AI",
+      "AI YouTube Shorts workflow",
+      "YouTube Shorts AI tools",
+      "faceless YouTube Shorts",
+      "make Shorts faster AI",
+    ],
+    affiliateDisclosure: false,
+  },
 ];
 
 export default posts;
