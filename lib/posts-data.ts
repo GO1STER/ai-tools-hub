@@ -378,6 +378,44 @@ const posts: PostMeta[] = [
     affiliateDisclosure: true,
     rating: 4.6,
   },
+  {
+    title: "HeyGen vs Synthesia 2025: Which AI Avatar Tool Is Better for YouTube?",
+    description:
+      "90-day head-to-head comparison of HeyGen and Synthesia across three channels — avatar realism, video translation, custom avatar setup, pricing, and which tool wins for YouTube creators vs corporate use.",
+    slug: "heygen-vs-synthesia",
+    category: "AI Video Tools",
+    categorySlug: "ai-video-tools",
+    date: "2025-06-15",
+    updated: "2025-06-15",
+    keywords: [
+      "HeyGen vs Synthesia 2025",
+      "HeyGen vs Synthesia for YouTube",
+      "best AI avatar tool YouTube",
+      "HeyGen review 2025",
+      "Synthesia review 2025",
+    ],
+    affiliateDisclosure: true,
+    rating: 4.5,
+  },
+  {
+    title: "ElevenLabs vs Murf AI 2025: Which Voice Generator Is Better for YouTube?",
+    description:
+      "6-month comparison of ElevenLabs and Murf AI for YouTube voiceovers — voice realism, cloning, pronunciation control, pricing, and which tool wins for content creators building faceless channels.",
+    slug: "elevenlabs-vs-murf",
+    category: "AI Voice & Text-to-Speech",
+    categorySlug: "ai-voice-tts",
+    date: "2025-06-15",
+    updated: "2025-06-15",
+    keywords: [
+      "ElevenLabs vs Murf AI 2025",
+      "ElevenLabs vs Murf for YouTube",
+      "best AI voice generator YouTube 2025",
+      "ElevenLabs review vs Murf",
+      "AI voiceover comparison 2025",
+    ],
+    affiliateDisclosure: true,
+    rating: 4.6,
+  },
 ];
 
 export default posts;
