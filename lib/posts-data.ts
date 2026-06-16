@@ -416,6 +416,42 @@ const posts: PostMeta[] = [
     affiliateDisclosure: true,
     rating: 4.6,
   },
+  {
+    title: "Best AI Prompts for YouTube Script Writing (Copy-Paste Templates 2025)",
+    description:
+      "The exact AI prompts I use to write YouTube scripts across 6 channels — hook generators, full-script templates, Shorts prompts, SEO descriptions, and a 10-rule system for better AI output every time.",
+    slug: "best-ai-prompts-youtube-scripts",
+    category: "AI Scriptwriting & Text",
+    categorySlug: "ai-scriptwriting-text",
+    date: "2025-06-15",
+    updated: "2025-06-15",
+    keywords: [
+      "AI prompts for YouTube scripts",
+      "ChatGPT prompts YouTube scriptwriting",
+      "best prompts YouTube video scripts",
+      "AI script writing templates YouTube",
+      "ChatGPT YouTube script prompt 2025",
+    ],
+    affiliateDisclosure: false,
+  },
+  {
+    title: "How to Use ChatGPT to Grow Your YouTube Channel in 2025 (Full Workflow)",
+    description:
+      "The complete ChatGPT workflow for YouTube growth — niche research, title optimization, SEO descriptions, comment replies, content calendars, and a weekly system that saves 8-12 hours per week.",
+    slug: "chatgpt-youtube-channel-growth",
+    category: "AI Scriptwriting & Text",
+    categorySlug: "ai-scriptwriting-text",
+    date: "2025-06-15",
+    updated: "2025-06-15",
+    keywords: [
+      "how to use ChatGPT for YouTube",
+      "ChatGPT YouTube channel growth",
+      "ChatGPT YouTube strategy 2025",
+      "grow YouTube channel with AI",
+      "ChatGPT YouTube workflow",
+    ],
+    affiliateDisclosure: false,
+  },
 ];
 
 export default posts;
