@@ -8,9 +8,9 @@ import NewsletterForm from "@/components/NewsletterForm";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "AICreatorTools – Best AI Tools for YouTube & Video Creators",
+  title: "AI CreatorEdge – Best AI Tools for YouTube & Faceless Channels 2025",
   description:
-    "Honest, hands-on reviews and comparisons of AI tools for content creators, YouTubers, and faceless video channels. Find the best tools for video, voice, thumbnails, scripts, and more.",
+    "Honest, hands-on reviews and comparisons of AI tools for YouTube creators and faceless channels. We test every tool so you spend money on what actually works.",
   alternates: { canonical: "/" },
 };
 
@@ -23,7 +23,7 @@ const CATEGORY_META: Record<string, { icon: string; desc: string; color: string 
 };
 
 const STATS = [
-  { value: "12+", label: "Tools reviewed" },
+  { value: "24+", label: "Tools reviewed" },
   { value: "5", label: "Categories covered" },
   { value: "100%", label: "Hands-on tested" },
   { value: "0", label: "Sponsored reviews" },
@@ -34,13 +34,18 @@ export default function HomePage() {
   const featured = posts[0];
   const latestPosts = posts.slice(1, 7);
 
-  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://aicreatortools.com";
+  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aicreatoredge.com";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "AICreatorTools",
+    name: "AI CreatorEdge",
     url: SITE_URL,
     description: "Honest AI tool reviews for YouTube creators and faceless channel operators.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${SITE_URL}/?s={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
   };
 
   return (
@@ -56,7 +61,7 @@ export default function HomePage() {
         <div className="relative max-w-4xl mx-auto text-center">
           <span className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-indigo-100 text-xs font-semibold px-4 py-1.5 rounded-full mb-6 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-            Tested by real creators · Updated June 2025
+            Tested by real creators · Updated June 2025 · 24 reviews
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
             The Best <span className="text-indigo-300">AI Tools</span> for<br />

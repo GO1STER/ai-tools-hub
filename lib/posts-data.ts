@@ -452,6 +452,43 @@ const posts: PostMeta[] = [
     ],
     affiliateDisclosure: false,
   },
+  {
+    title: "CapCut AI Review 2025: The Best Free AI Video Editor for YouTube?",
+    description:
+      "Honest CapCut AI review after 4 months across two channels — auto-captions, script-to-video, AI avatars, auto-reframe, the watermark problem, and whether the $9.99 Pro plan is worth it.",
+    slug: "capcut-ai-review",
+    category: "AI Video Tools",
+    categorySlug: "ai-video-tools",
+    date: "2025-06-30",
+    updated: "2025-06-30",
+    keywords: [
+      "CapCut AI review 2025",
+      "CapCut AI features YouTube",
+      "best free AI video editor YouTube",
+      "CapCut Pro worth it",
+      "CapCut vs DaVinci Resolve",
+    ],
+    affiliateDisclosure: false,
+    rating: 4.3,
+  },
+  {
+    title: "Best AI Tools for Faceless YouTube Channels 2025: The Complete Stack",
+    description:
+      "The exact AI tool stack used across three monetized faceless channels — research, scripting, voiceover, video generation, editing, and thumbnails. Includes free, $50/month, and $150/month setups.",
+    slug: "best-ai-tools-faceless-youtube",
+    category: "AI Workflows & Automation",
+    categorySlug: "ai-workflows-automation",
+    date: "2025-06-30",
+    updated: "2025-06-30",
+    keywords: [
+      "best AI tools for faceless YouTube channels",
+      "faceless YouTube channel AI stack 2025",
+      "AI tools faceless YouTube 2025",
+      "best tools faceless channel",
+      "faceless YouTube channel tools free",
+    ],
+    affiliateDisclosure: false,
+  },
 ];
 
 export default posts;
