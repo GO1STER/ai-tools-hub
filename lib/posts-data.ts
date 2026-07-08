@@ -489,6 +489,24 @@ const posts: PostMeta[] = [
     ],
     affiliateDisclosure: false,
   },
+  {
+    title: "YouTube SEO with AI Tools: How to Rank Your Videos in 2026",
+    description:
+      "The complete YouTube SEO workflow using AI — keyword research with ChatGPT, title optimization, description templates, tag strategy, thumbnail CTR, vidIQ vs TubeBuddy comparison, and a monthly audit system.",
+    slug: "youtube-seo-ai-tools",
+    category: "AI Workflows & Automation",
+    categorySlug: "ai-workflows-automation",
+    date: "2026-07-08",
+    updated: "2026-07-08",
+    keywords: [
+      "YouTube SEO AI tools 2026",
+      "how to rank YouTube videos with AI",
+      "YouTube SEO strategy 2026",
+      "AI tools for YouTube SEO",
+      "YouTube keyword research AI",
+    ],
+    affiliateDisclosure: false,
+  },
 ];
 
 export default posts;

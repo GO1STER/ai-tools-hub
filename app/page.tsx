@@ -23,7 +23,7 @@ const CATEGORY_META: Record<string, { icon: string; desc: string; color: string 
 };
 
 const STATS = [
-  { value: "24+", label: "Tools reviewed" },
+  { value: "27+", label: "Tools reviewed" },
   { value: "5", label: "Categories covered" },
   { value: "100%", label: "Hands-on tested" },
   { value: "0", label: "Sponsored reviews" },
@@ -61,7 +61,7 @@ export default function HomePage() {
         <div className="relative max-w-4xl mx-auto text-center">
           <span className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-indigo-100 text-xs font-semibold px-4 py-1.5 rounded-full mb-6 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-            Tested by real creators · Updated June 2025 · 24 reviews
+            Tested by real creators · Updated July 2026 · 27 reviews
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
             The Best <span className="text-indigo-300">AI Tools</span> for<br />
