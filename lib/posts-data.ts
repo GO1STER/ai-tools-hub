@@ -507,6 +507,25 @@ const posts: PostMeta[] = [
     ],
     affiliateDisclosure: false,
   },
+  {
+    title: "Jasper AI Review 2026: Is It Worth $49/Month for YouTube Creators?",
+    description:
+      "Honest Jasper AI review after 3 months of real use — Brand Voice quality, script output vs Claude and ChatGPT, template library, Jasper Art, and whether solo creators can justify $49/month.",
+    slug: "jasper-ai-review",
+    category: "AI Scriptwriting & Text",
+    categorySlug: "ai-scriptwriting-text",
+    date: "2026-07-20",
+    updated: "2026-07-20",
+    keywords: [
+      "Jasper AI review 2026",
+      "Jasper AI worth it YouTube",
+      "Jasper vs ChatGPT vs Claude",
+      "best AI writing tool YouTube creators",
+      "Jasper AI pricing review",
+    ],
+    affiliateDisclosure: true,
+    rating: 4.0,
+  },
 ];
 
 export default posts;
